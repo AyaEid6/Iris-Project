@@ -1,0 +1,484 @@
+/* Large devices (desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  /* Styles for ≤ 1200px */
+  .overlay .content h1{
+    font-size: 45px;
+  }
+  .overlay .content p{
+    font-size: 20px;
+  }
+
+  .main-btn, .normal-btn{
+    font-size: 16px;
+    padding: 14px 20px;
+  }
+
+  .sub-heading h3{
+    font-size: 35px;
+  }
+
+  .sub-heading p{
+    font-size: 16px;
+  }
+
+  .text-box{
+    padding: 14px 20px;
+  }
+
+  .home-card h4{
+    font-size: 16px;
+  }
+
+  .home-card p{
+    font-size: 14px;
+  }
+
+  .sec-btn{
+    font-size: 16px;
+    padding: 14px 20px;
+  }
+
+  .process-card p{
+    font-size: 12px;
+  }
+
+  .heading{
+    font-size: 40px;
+  }
+
+  .block .num{
+    font-size: 40px;
+  }
+
+  .bottom-footer .main p{
+    font-size: 14px;
+  }
+
+  .links h4{
+    font-size: 16px;
+  }
+  .links li a , .links p{
+    font-size: 14px;
+  }
+
+  .links button{
+    font-size: 14px;
+    padding: 14px 20px;
+  }
+
+
+}
+
+/* Medium devices (large tablets and small laptops, 992px and up) */
+@media (max-width: 992px) {
+  /* Styles for ≤ 992px */
+
+  .overlay .content{
+    width: 75%;
+  }
+.overlay .content h1 {
+  font-size: 42px; /* 45 - 3 */
+}
+
+.overlay .content p {
+  font-size: 17px; /* 20 - 3 */
+}
+
+    .main-btn, .normal-btn {
+        font-size: 13px;
+        padding: 14px 10px;
+    }
+    .home-card{
+        padding: 20px;
+    }
+
+.sub-heading h3 {
+  font-size: 32px; /* 35 - 3 */
+}
+
+.sub-heading p {
+  font-size: 13px; /* 16 - 3 */
+}
+
+.text-box {
+  padding: 14px 20px; /* unchanged */
+}
+
+.home-card h4 {
+  font-size: 15px; /* 16 - 3 */
+}
+
+.home-card p {
+  font-size: 13px; /* 14 - 3 */
+}
+
+.sec-btn {
+  font-size: 13px; /* 16 - 3 */
+  padding: 14px 20px; /* unchanged */
+}
+
+    .process-card p {
+        font-size: 15px;
+    }
+
+.heading {
+  font-size: 35px; /* 40 - 3 */
+}
+
+    .block .num {
+        font-size: 35px;
+    }
+
+.bottom-footer .main p {
+  font-size: 11px; /* 14 - 3 */
+}
+
+.block .text{
+  font-size: 15px;
+}
+
+.links h4 {
+  font-size: 13px; /* 16 - 3 */
+}
+
+.links li a, .links p {
+  font-size: 11px; /* 14 - 3 */
+}
+
+    .links button {
+        font-size: 14px;
+        padding: 12px 18px;
+    }
+
+
+}
+
+/* Small devices (tablets, 767px and up) */
+@media (max-width: 767px) {
+  /* Styles for ≤ 767px */
+
+  .process .row>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ .process-card{
+    max-width: 300px;
+  }
+
+  .overlay .content h1 {
+  font-size: 35px; /* 45 - 3 */
+}
+
+.overlay .content p {
+  font-size: 17px; /* 20 - 3 */
+}
+
+.main-btn, .normal-btn {
+  font-size: 13px; /* 16 - 3 */
+  padding: 14px 20px; /* unchanged */
+}
+
+.sub-heading h3 {
+  font-size: 32px; /* 35 - 3 */
+}
+
+.sub-heading p {
+  font-size: 13px; /* 16 - 3 */
+}
+
+.text-box {
+  padding: 14px 20px; /* unchanged */
+}
+
+    .home-card h4 {
+        font-size: 16px;
+    }
+
+    .home-card p {
+        font-size: 14px;
+    }
+
+.sec-btn {
+  font-size: 13px; /* 16 - 3 */
+  padding: 14px 20px; /* unchanged */
+}
+
+    .process-card p {
+        font-size: 16px;
+    }
+
+    .heading {
+        font-size: 32px;
+    }
+
+.block .num {
+        font-size: 28px;
+    }
+
+        .block .text {
+        font-size: 12px;
+    }
+
+    .bottom-footer .main p {
+        font-size: 15px;
+    }
+.links h4 {
+  font-size: 13px; /* 16 - 3 */
+}
+
+    .links li a, .links p {
+        font-size: 15px;
+    }
+
+.links button {
+        font-size: 11px;
+        padding: 10px 15px;
+    }
+
+.statics {
+    gap: 20px;
+}
+
+.top-footer {
+    background: #444;
+    padding: 80px 100px
+}
+
+}
+
+/* Extra small devices (phones, 575px and up) */
+@media (max-width: 575px) {
+  /* Styles for ≤ 575px */
+
+  .navbar-brand svg{
+    width: 170px;
+  }
+
+      .overlay .content {
+        width: 100%;
+    }
+
+
+.overlay .content p {
+  font-size: 20px; /* 20 - 3 */
+}
+
+.main-btn, .normal-btn {
+  font-size: 13px; /* 16 - 3 */
+  padding: 12px 15px; /* unchanged */
+}
+
+.sub-heading h3 {
+  font-size: 32px; /* 35 - 3 */
+}
+
+.default-padding{
+    padding: 80px 100px;
+}
+
+.sub-heading p {
+  font-size: 15px; /* 16 - 3 */
+}
+
+    .text-box {
+        padding: 14px 16px;
+        font-size: 12px;
+    }
+
+.sec-btn {
+  font-size: 13px; /* 16 - 3 */
+  padding: 14px 20px; /* unchanged */
+}
+
+    .top-footer {
+        background: #444;
+        padding: 80px 70px;
+    }
+
+    .bottom-footer{
+        padding: 80px 70px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .block .num {
+        font-size: 25px;
+    }
+
+    .links h4 {
+       margin-bottom: 10px !important;
+               font-size: 16px;
+    }
+.copyright{
+    flex-wrap: wrap;
+}
+
+}
+
+/* Very small devices (extra small phones, 445px and up) */
+@media (max-width: 445px) {
+  /* Styles for ≤ 445px */
+  .navbar{
+    padding-block: 0 !important;
+  }
+    .navbar-brand svg{
+    width: 150px;
+
+  }
+
+  .overlay .content h1 {
+        font-size: 30px;
+    }
+
+      .overlay .content {
+        width: 100%;
+    }
+
+    .overlay .content p {
+        font-size: 15px;
+    }
+
+.main-btn, .normal-btn {
+  font-size: 13px; /* 16 - 3 */
+  padding: 12px 15px; /* unchanged */
+}
+
+    .sub-heading h3 {
+        font-size: 30px;
+    }
+
+    .default-padding {
+        padding: 80px 50px;
+    }
+
+.sub-heading p {
+  font-size: 15px; /* 16 - 3 */
+}
+
+    .text-box {
+        padding: 14px 16px;
+        font-size: 12px;
+    }
+
+.sec-btn {
+  font-size: 13px; /* 16 - 3 */
+  padding: 14px 20px; /* unchanged */
+}
+
+.top-footer {
+        background: #444;
+        padding: 60px 50px;
+    }
+
+    
+
+    .bottom-footer{
+        padding: 60px 50px;
+    }
+
+      .heading {
+        font-size: 25px;
+    }
+
+      .block .num {
+        font-size: 20px;
+    }
+
+        .block .text {
+        font-size: 10px;
+    }
+
+    .links h4 {
+       margin-bottom: 10px !important;
+    font-size: 16px;
+    }
+.copyright{
+    flex-wrap: wrap;
+}
+}
+
+/* Tiny devices (e.g., very old phones, 320px and up) */
+@media (max-width: 361px) {
+  /* Styles for ≤ 320px */
+
+  .overlay .content h1 {
+        font-size: 27px;
+    }
+
+
+
+    .overlay .content p {
+        font-size: 14px;
+    }
+
+.main-btn, .normal-btn {
+  font-size: 13px; /* 16 - 3 */
+  padding: 14px ; /* unchanged */
+}
+
+    .sub-heading h3 {
+        font-size: 24px;
+    }
+
+
+.sub-heading p {
+  font-size: 15px; /* 16 - 3 */
+}
+
+   .text-box {
+        padding: 14px;
+        font-size: 10px;
+    }
+
+.sec-btn {
+  font-size: 13px; /* 16 - 3 */
+  padding: 14px ; /* unchanged */
+}
+.btns{
+    flex-wrap: wrap;
+}
+.top-footer {
+        background: #444;
+        padding: 60px 40px;
+    }
+
+    .statics{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .bottom-footer{
+        padding: 60px 40px;
+    }
+    .bottom-footer .main p {
+        font-size: 14px;
+    }
+      .heading {
+        font-size: 20px;
+    }
+
+      .block .num {
+        font-size: 20px;
+    }
+
+        .block .text {
+        font-size: 10px;
+    }
+
+    .links h4 {
+       margin-bottom: 10px !important;
+    font-size: 14px;
+    }
+
+        .links li a, .links p {
+        font-size: 12px;
+        }
+
+     .links button {
+        font-size: 11px;
+        padding: 10px ;
+    }
+}
