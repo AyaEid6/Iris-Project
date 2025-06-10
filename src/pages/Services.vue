@@ -1,11 +1,15 @@
 <template>
-    <h1>about</h1>
+    <Hero />
+    <Services />
+    <Process />
+    <WhoServe />
 </template>
 
-<script>
-export default {
-name: 'AppServices'
-}
+<script setup>
+    import Hero from '@/components/Services/Hero.vue';
+    import Services from '@/components/Services/Services.vue';
+    import Process from '@/components/Services/Process.vue';
+    import WhoServe from '@/components/Services/WhoServe.vue';
 </script>
 
 <style>

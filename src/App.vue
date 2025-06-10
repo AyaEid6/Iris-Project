@@ -8,20 +8,12 @@
   </div>
 </template>
 
-<script>
+<script setup>
 
-import AppNavbar from './components/Navbar.vue'
-import AppFooter from './components/Footer.vue'
+import AppNavbar from './components/layout/Navbar.vue'
+import AppFooter from './components/layout/Footer.vue'
 
 
-export default {
-  name: 'App',
-  components: {
-    AppNavbar,
-    AppFooter,
-
-  }
-}
 </script>
 
 <style>
