@@ -28,7 +28,7 @@ const routes =[
     { path: '/services', component: Services },
     { path: '/getTouch', component: GetTouch },
     {path:'/:dynamic',component:index},
-    { path: '/:NotFound(.*)*', component: ErrorPage , meta: { hideNavbar: true } }
+    { path: '/:NotFound(.*)*', component: ErrorPage , meta: { hideLayout: true } }
 ];
 
 const router = createRouter({
